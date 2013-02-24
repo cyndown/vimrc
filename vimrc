@@ -28,8 +28,7 @@ let &wrapmargin= &textwidth
 
 " Status bar
 set laststatus=2
-" set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
-set rtp+=/Users/ariel/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim
+set rtp+=$HOME/Library/Python2.7/lib/python/site-packages/powerline/bindings/vim
 
 " Alerts
 set visualbell
